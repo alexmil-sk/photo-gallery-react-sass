@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="D:\GEEKBRAIN University_02-01-2022\_РАБОЧАЯ ПАПКА\6-projects-for-begginers\react-sass-6-projects-for-begginers\src\components\TheLoader" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,6 +119,8 @@
       <workItem from="1661253948039" duration="530000" />
       <workItem from="1661258064956" duration="11987000" />
       <workItem from="1661275442257" duration="357000" />
+      <workItem from="1661275994138" duration="308000" />
+      <workItem from="1661277327009" duration="301000" />
     </task>
     <task id="LOCAL-00002" summary="Before control input">
       <created>1661240245954</created>

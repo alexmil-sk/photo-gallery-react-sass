@@ -93,9 +93,9 @@ function App() {
             ? (<TheLoader />)
             : isError ? (<p className="error">ERROR! {isError}</p>) : (myCollections
                 .filter(item => (item.name.toLowerCase()).includes(searchValue.toLowerCase()))
-                .map((item, idx) => (
+                .map(item => (
                   <CollectionComp
-                    key={idx}
+                    key={item.name}
                     name={item.name}
                     images={item['photos']}
                   />
