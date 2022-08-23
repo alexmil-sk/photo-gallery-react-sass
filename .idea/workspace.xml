@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 1">
+    <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 2">
+      <change afterPath="$PROJECT_DIR$/src/components/CollectionComp-копия.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CollectionComp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionComp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,21 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/GEEKBRAIN University_02-01-2022/_РАБОЧАЯ ПАПКА/6-projects-for-begginers/photo-gallery-react-sass/src/components",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -65,6 +65,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GEEKBRAIN University_02-01-2022\_РАБОЧАЯ ПАПКА\6-projects-for-begginers\photo-gallery-react-sass\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GEEKBRAIN University_02-01-2022\_РАБОЧАЯ ПАПКА\6-projects-for-begginers\react-sass-6-projects-for-begginers\src\components\TheLoader" />
     </key>
@@ -105,7 +108,7 @@
       <workItem from="1661253565133" duration="39000" />
       <workItem from="1661253661160" duration="127000" />
       <workItem from="1661253948039" duration="530000" />
-      <workItem from="1661258064956" duration="4989000" />
+      <workItem from="1661258064956" duration="10349000" />
     </task>
     <task id="LOCAL-00002" summary="Before control input">
       <created>1661240245954</created>
@@ -135,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661261066672</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edit 2">
+      <created>1661263292509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661263292509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +168,7 @@
     <MESSAGE value="End Photo Gallery." />
     <MESSAGE value="End Photo Gallery 2." />
     <MESSAGE value="Edit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit 1" />
+    <MESSAGE value="Edit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit 2" />
   </component>
 </project>

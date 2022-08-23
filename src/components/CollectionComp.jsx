@@ -1,13 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function CollectionComp({name, images}) {
+  
+  const [bigImg, setBigImg] = useState(images[0]);
+  const smallImgArray = images.slice(1);
+  
+  function getImgBig(val) {
+    let findImg = smallImgArray.find((_, idx) => idx === val);
+    setBigImg(findImg)
+  }
+  
   return (
     <div className="collection">
-      <img className="collection__big" src={images[0]} alt="Item"/>
+      <img className="collection__big" src={bigImg} alt="Item"/>
       <div className="collection__bottom">
-        <img className="collection__mini" src={images[1]} alt="Item"/>
-        <img className="collection__mini" src={images[2]} alt="Item"/>
-        <img className="collection__mini" src={images[3]} alt="Item"/>
+        {
+          smallImgArray.map((img, idx) => (
+              <img
+                key={img}
+                className="collection__img"
+                src={img}
+                alt={idx}
+                onClick={() => getImgBig(idx)}
+              />
+          ))
+        }
       </div>
       <h4>{name}</h4>
     </div>
