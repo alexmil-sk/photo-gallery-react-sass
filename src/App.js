@@ -3,6 +3,9 @@ import './index.scss';
 import CollectionComp from "./components/CollectionComp";
 import axios from 'axios';
 import TheLoader from "./components/TheLoader/TheLoader";
+import { BsSearch } from "react-icons/bs";
+import { AiOutlineClear } from "react-icons/ai";
+
 
 //https://62e38bb63c89b95396ca9aec.mockapi.io/foto_collection
 
@@ -45,6 +48,10 @@ function App() {
     setPaginationPage(1);
   }
   
+  function clearSearchValue() {
+    setSearchValue('');
+  }
+  
   return (
     <div className="App">
       <h1>My collection of Photos</h1>
@@ -63,12 +70,22 @@ function App() {
           }
         
         </ul>
+        
+        <span className="bs-search"><BsSearch /></span>
         <input
-          className="search-input"
+          className={`search-input ${!searchValue && 'border-radius'}`}
           placeholder="Search by names"
           value={searchValue}
           onChange={searchInputHandler}
         />
+        {
+          searchValue && <span
+            className="ai-outline-clear"
+            onClick={clearSearchValue}
+          >
+            <AiOutlineClear />
+          </span>
+        }
       </div>
       <div className="content">
         {

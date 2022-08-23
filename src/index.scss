@@ -86,6 +86,7 @@ h1 {
   padding: 30px;
   border-radius: 30px;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.7);
   cursor: pointer;
   transition: all 0.15s ease-in-out;
 
@@ -132,21 +133,50 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 }
+.bs-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  font-size: 2rem;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #c6c6c6;
+}
 
 .search-input {
   font-size: 16px;
   width: 250px;
   height: 50px;
   padding: 0 15px;
-  border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   outline: none;
   transition: all 0.15s ease-in-out;
 
-  &:focus {
-    border: 1px solid rgba(0, 0, 0, 0.4);
+  &.border-radius {
+    border-radius: 0 10px 10px 0;
   }
 
+  &:focus {
+    border: none;
+    background-color: #dddddd;
+  }
+
+}
+.ai-outline-clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #f95e5e;
+  font-size: 2rem;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
 }
 .error {
   color: red;
