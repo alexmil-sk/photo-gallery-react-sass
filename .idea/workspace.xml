@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheLoader/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheLoader/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1661253565133" duration="39000" />
       <workItem from="1661253661160" duration="127000" />
       <workItem from="1661253948039" duration="530000" />
-      <workItem from="1661258064956" duration="11325000" />
+      <workItem from="1661258064956" duration="11638000" />
     </task>
     <task id="LOCAL-00002" summary="Before control input">
       <created>1661240245954</created>
@@ -150,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661271306093</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Edit 4">
+      <created>1661275076774</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661275076775</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +179,7 @@
     <MESSAGE value="Edit 1" />
     <MESSAGE value="Edit 2" />
     <MESSAGE value="Edit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit 3" />
+    <MESSAGE value="Edit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit 4" />
   </component>
 </project>
