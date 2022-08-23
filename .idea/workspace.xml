@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 2">
-      <change afterPath="$PROJECT_DIR$/src/components/CollectionComp-копия.jsx" afterDir="false" />
+    <list default="true" id="98ba2b75-cd3c-472b-8482-b3f9f4d1bb14" name="Changes" comment="Edit 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CollectionComp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionComp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheLoader/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheLoader/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1661253565133" duration="39000" />
       <workItem from="1661253661160" duration="127000" />
       <workItem from="1661253948039" duration="530000" />
-      <workItem from="1661258064956" duration="10349000" />
+      <workItem from="1661258064956" duration="11325000" />
     </task>
     <task id="LOCAL-00002" summary="Before control input">
       <created>1661240245954</created>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661263292509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Edit 3">
+      <created>1661271306093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661271306093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="End Photo Gallery 2." />
     <MESSAGE value="Edit 1" />
     <MESSAGE value="Edit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit 2" />
+    <MESSAGE value="Edit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit 3" />
   </component>
 </project>

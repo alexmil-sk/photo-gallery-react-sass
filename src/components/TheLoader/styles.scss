@@ -6,7 +6,7 @@
   margin: 0 auto;
   position: relative;
   border: 3px solid;
-  border-color:#de3500 #0000 #100dff #0000;
+  border-color: #fff #0000 #fe0000 #0000;
   border-radius: 50%;
   box-sizing: border-box;
   animation: 1s rotate linear infinite;
@@ -17,11 +17,11 @@
   left: 0;
   position: absolute;
   border: 10px solid transparent;
-  border-bottom-color: #100dff;
+  border-bottom-color: #ff0000;
   transform: translate(-10px, 19px) rotate(-35deg);
 }
 .loader:after {
-  border-color: #de3500 #0000 #0000 #0000 ;
+  border-color: #fff #0000 #0000 #0000 ;
   transform: translate(32px, 3px) rotate(-35deg);
 }
 @keyframes rotate {
