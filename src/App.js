@@ -25,7 +25,7 @@ function App() {
   const [paginationPage, setPaginationPage] = useState(1);
   
   const categoryQuery = categoryId ? `category=${categoryId}` : '';
-  const paginationQuery = `page=${paginationPage}&limit=3`;
+  const paginationQuery = `page=${paginationPage}&limit=20`;
   
   
   useEffect(() => {

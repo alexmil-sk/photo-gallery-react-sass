@@ -16,11 +16,14 @@ body {
 .App {
   padding: 50px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 2000px;
 }
 
 h1 {
   font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
 }
 
 .tags {
@@ -38,31 +41,42 @@ h1 {
     font-size: 18px;
     border: 1px solid transparent;
     transition: all 0.15s ease-in-out;
+    text-transform: uppercase;
 
     &:hover {
       border-color: #000;
     }
 
     &.active {
-      background-color: #000;
+      //background-color: #000;
+      background-color: #e19b00;
       color: #fff;
+      border: 2px solid #fff;
     }
   }
 }
 
 .content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   margin-top: 40px;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1800px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 1600px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
 }
 
